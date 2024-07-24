@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="huelladino.png.png">
+    <title>¡MemoDino!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="memodino3.css">
+</head>
+
+<body>
+    <div class="controls">
+        <button id="playButton">Iniciar Juego</button>
+        <button id="cancelButton">Cancelar</button>
+    </div>
+    <h1>MEMODINO</h1>
+    <h3>Encuentra todos los pares de dinosaurios antes de agotar el tiempo. ¡Sálvate de la extinción!</h3>
+    <div class="botones">
+        <h4>Nivel de dificultad:</h4>
+        <button id="easyBtn">Fácil</button>
+        <button id="mediumBtn">Medio</button>
+        <button id="hardBtn">Difícil</button>
+    </div>
+    <img id="meteorito" src="meteorito.png" width="100">
+    <img id="meteorito2" src="meteorito.png" width="100">
+    <div id="tiempo">Tiempo: 01:00</div>
+    <div id="texto">RESULTADOS: ...</div>
+    <h4 id="resultado"></h4>
+    <div class="dinosaurios" id="tablero"></div>
+    <audio id="backgroundMusic" loop>
+        <source src="musicamemodino.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <button id="pararmusica">Parar Sonido</button>
+    <div class="links">
+        <h2>¡Sígueme!</h2>
+        <a href="https://github.com/Biank123" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            Github</a>
+        <a href="https://www.linkedin.com/in/bianca-de-petris/" target="_blank"> 
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn</a>
+    </div>
+
+    <script src="memodino3.js"></script>
+</body>
+
+</html>
