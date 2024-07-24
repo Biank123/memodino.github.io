@@ -274,10 +274,17 @@ button:hover {
         opacity: 1;
     }
 
-    100% {
-        opacity: 0.5;
+    50% {
+        opacity: 0.7;
     }
-}
+
+    75% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 0;
+    }
 
 .casilla.hide {
     animation: hideCard 0.5s forwards;
