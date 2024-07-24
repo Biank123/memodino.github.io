@@ -139,21 +139,21 @@ h4 {
 }
 
 #pararmusica {
-    position: fixed;
+    position: absolute;
     top: 700px;
     right: 120px;
 
 }
 
 #cancelButton {
-    position: fixed;
+    position: absolute;
     top: 260px;
     right: 380px;
 
 }
 
 #playButton {
-    position: fixed;
+    position: absolute;
     top: 260px;
     right: 900px;
 
@@ -275,15 +275,15 @@ button:hover {
     }
 
     50% {
-        opacity: 0.7;
+        opacity: 0.8;
     }
 
     75% {
-        opacity: 0.3;
+        opacity: 0.5;
     }
 
     100% {
-        opacity: 0;
+        opacity: 0.3;
     }
 }
 
