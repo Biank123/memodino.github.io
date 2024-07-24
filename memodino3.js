@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 casilla.classList.remove('hide');
                 firstCard = null;
                 lockBoard = false; 
-            }, 500); 
+            }, 1000);
         }
     }
     
