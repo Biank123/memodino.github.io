@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 unResultado();
             }
         } else {
-            lockBoard = false;
+            lockBoard = true;
             // Aplicar la animación de ocultamiento
             firstCard.classList.add('hide');
             casilla.classList.add('hide');
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 casilla.classList.remove('hide');
                 firstCard = null;
                 lockBoard = false; 
-            }, 500);
+            }, 600);
         }
     }
     
