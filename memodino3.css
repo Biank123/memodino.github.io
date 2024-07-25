@@ -275,15 +275,11 @@ button:hover {
     }
 
     50% {
-        opacity: 0.8;
-    }
-
-    75% {
         opacity: 0.5;
     }
 
     100% {
-        opacity: 0.3;
+        opacity: 0;
     }
 }
 
