@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 unResultado();
             }
         } else {
-            lockBoard = true;
+            lockBoard = false;
             // Aplicar la animación de ocultamiento
             firstCard.classList.add('hide');
             casilla.classList.add('hide');
