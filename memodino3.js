@@ -165,19 +165,19 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             }
         } else {
-            lockBoard = true;
+            // lockBoard = true;}
             // Aplicar la animación de ocultamiento
             firstCard.classList.add('hide');
             casilla.classList.add('hide');
             
-            // setTimeout(() => {
+            setTimeout(() => {
                 firstCard.querySelector('img').src = 'casillagiradadino.jpg';
                 casilla.querySelector('img').src = 'casillagiradadino.jpg';
                 firstCard.classList.remove('hide');
                 casilla.classList.remove('hide');
                 firstCard = null;
                 lockBoard = false; 
-            // }, 600);
+            }, 500);
         }
     }
     
