@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
             firstCard = null;
             if (matchedCards.length === dinosaurImages.length) {
                 mostrarResultado('fin-bueno');
-                
+                unResultado();
             }
         } else {
             lockBoard = true;
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 casilla.classList.remove('hide');
                 firstCard = null;
                 lockBoard = false; 
-            }, 500);
+            }, 500); 
         }
     }
     
