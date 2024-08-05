@@ -274,10 +274,17 @@ button:hover {
         opacity: 1;
     }
 
-    100% {
+    50% {
         opacity: 0.8;
     }
 
+    75% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
 }
 
 .casilla.hide {
@@ -311,8 +318,5 @@ button:hover {
 h2 {
     color: rgb(245, 241, 226);
 }
-
-
-
 
 
