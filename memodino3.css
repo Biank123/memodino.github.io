@@ -281,7 +281,7 @@ button:hover {
 }
 
 .casilla.hide {
-    animation: hideCard 1s forwards;
+    animation: hideCard 0.5s forwards;
 }
 
 .links {
